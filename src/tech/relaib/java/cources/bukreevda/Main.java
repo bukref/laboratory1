@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        System.out.printf("Лабораторная работа №1.\n");
-        System.out.printf("Букреев Д.А., гр.12002008, вариант 4\n");
+        System.out.printf("Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° в„–1.\n");
+        System.out.printf("Р‘СѓРєСЂРµРµРІ Р”.Рђ., РіСЂ.12002008, РІР°СЂРёР°РЅС‚ 4\n");
         Scanner input = new Scanner(System.in);
         int choose=99;
         do {
-            System.out.printf("1. Задание 1. Пример 1.\n");
-            System.out.printf("2. Задание 1. Пример 2.\n");
-            System.out.printf("3. Задание 2. Пример 1.\n");
-            System.out.printf("4. Задание 2. Пример 2.\n");
-            System.out.printf("5. Задание 2. Пример 3.\n");
-            System.out.printf("6. Задание 2. Пример 4.\n");
-            System.out.printf("0. Выход\n");
-            System.out.printf("Выберите задание:");
+            System.out.printf("1. Р—Р°РґР°РЅРёРµ 1. РџСЂРёРјРµСЂ 1.\n");
+            System.out.printf("2. Р—Р°РґР°РЅРёРµ 1. РџСЂРёРјРµСЂ 2.\n");
+            System.out.printf("3. Р—Р°РґР°РЅРёРµ 2. РџСЂРёРјРµСЂ 1.\n");
+            System.out.printf("4. Р—Р°РґР°РЅРёРµ 2. РџСЂРёРјРµСЂ 2.\n");
+            System.out.printf("5. Р—Р°РґР°РЅРёРµ 2. РџСЂРёРјРµСЂ 3.\n");
+            System.out.printf("6. Р—Р°РґР°РЅРёРµ 2. РџСЂРёРјРµСЂ 4.\n");
+            System.out.printf("0. Р’С‹С…РѕРґ\n");
+            System.out.printf("Р’С‹Р±РµСЂРёС‚Рµ Р·Р°РґР°РЅРёРµ:");
             choose = input.nextInt();
             switch (choose) {
                 case  (1):

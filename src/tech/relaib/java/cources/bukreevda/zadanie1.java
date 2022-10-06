@@ -5,31 +5,31 @@ public class zadanie1 {
         double a,x,b,e,fin;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Введите значения для первого примера:");
-        System.out.print("Переменная a = ");
+        System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ РїРµСЂРІРѕРіРѕ РїСЂРёРјРµСЂР°:");
+        System.out.print("РџРµСЂРµРјРµРЅРЅР°СЏ a = ");
         a = input.nextFloat();
-        System.out.print("Переменная x = ");
+        System.out.print("РџРµСЂРµРјРµРЅРЅР°СЏ x = ");
         x = input.nextFloat();
-        System.out.print("Переменная b = ");
+        System.out.print("РџРµСЂРµРјРµРЅРЅР°СЏ b = ");
         b = input.nextFloat();
-        System.out.print("Переменная e = ");
+        System.out.print("РџРµСЂРµРјРµРЅРЅР°СЏ e = ");
         e = input.nextFloat();
         fin = ((a*x+2*b+Math.pow(x,2)* Math.abs(Math.cos(Math.pow(x,2))))) / (Math.PI* Math.pow(e,x));
-        System.out.printf("Значение выражения = %f\n", fin);
+        System.out.printf("Р—РЅР°С‡РµРЅРёРµ РІС‹СЂР°Р¶РµРЅРёСЏ = %f\n", fin);
     }
     public static void mat2(){
         double y, x, b, fin;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Введите значения для второго примера:");
-        System.out.print("Переменная x = ");
+        System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ РІС‚РѕСЂРѕРіРѕ РїСЂРёРјРµСЂР°:");
+        System.out.print("РџРµСЂРµРјРµРЅРЅР°СЏ x = ");
         x = input.nextFloat();
-        System.out.print("Переменная y = ");
+        System.out.print("РџРµСЂРµРјРµРЅРЅР°СЏ y = ");
         y = input.nextFloat();
-        System.out.print("Переменная b = ");
+        System.out.print("РџРµСЂРµРјРµРЅРЅР°СЏ b = ");
         b = input.nextFloat();
         fin = Math.log((Math.sqrt(x*x+y*y)-b) / (Math.sqrt(Math.abs(x))+Math.sin(y)+b));
-        System.out.printf("Значение выражения = %f\n", fin);
+        System.out.printf("Р—РЅР°С‡РµРЅРёРµ РІС‹СЂР°Р¶РµРЅРёСЏ = %f\n", fin);
     }
 
 }
