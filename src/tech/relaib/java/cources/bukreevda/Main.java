@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        System.out.printf("Лабораторная работа №1\n");
+        System.out.printf("Лабораторная работа №1.\n");
         System.out.printf("Букреев Д.А., гр.12002008, вариант 4\n");
         Scanner input = new Scanner(System.in);
         int choose=99;

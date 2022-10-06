@@ -5,7 +5,7 @@ public class zadanie1 {
         double a,x,b,e,fin;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Введите значения для первого примера::");
+        System.out.println("Введите значения для первого примера:");
         System.out.print("Переменная a = ");
         a = input.nextFloat();
         System.out.print("Переменная x = ");

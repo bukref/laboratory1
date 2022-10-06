@@ -6,7 +6,7 @@ public class zadanie2 {
         int dig1,dig2,dig3;
         double radius,side1,side2,side3;
 
-        System.out.println("Стороны треугольника");
+        System.out.println("Стороны треугольника.");
         System.out.print("Введите угол 1:\n");
         dig1 = input.nextInt();
         System.out.print("Введите угол 2:\n");
